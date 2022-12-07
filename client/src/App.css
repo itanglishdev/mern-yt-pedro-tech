@@ -1,3 +1,28 @@
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+*{
+  margin: 0;
+}
+.inputs {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-indent: 40px;
+  background-color: beige;
+
+}
+
+.inputs input {
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  margin: 10px;
+  text-indent: 40px;
 }
